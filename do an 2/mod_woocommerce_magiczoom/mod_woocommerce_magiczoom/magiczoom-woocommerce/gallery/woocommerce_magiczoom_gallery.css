@@ -1,0 +1,96 @@
+.MagicToolboxGallery .mtb-gallery-slide {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.MagicToolboxGallery .mtb-gallery-slide iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.MagicToolboxGallery .mtb-gallery-slide.mt-gallery-active {
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*height: 100%;*/
+    height: 0;
+    height: auto;
+    position: relative;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.MagicToolboxGallery .mtb-gallery-slide.mt-gallery-active.mt-gallery-video {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    height: auto;
+}
+
+.MagicToolboxGallery .MagicToolboxSelectorsContainer a[data-video-id] {
+    position: relative;
+    overflow: hidden;
+}
+
+.MagicToolboxGallery .MagicToolboxSelectorsContainer a[data-video-id]:after {
+    content: '';
+    position: absolute;
+    color: #fff;
+    text-shadow: 0px 1px 10px #000;
+    top: 50% !important;
+    left: 50% !important;
+    display: inline-block;
+    transform: translateY(-50%) translateX(-50%) !important;
+    -webkit-transform: translateY(-50%) translateX(-50%) !important;
+    z-index: 100;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.7) !important;
+    background-size: 50%;
+    background-position: center center;
+    border: 2px solid rgba(255,255,255,0.7);
+}
+
+.MagicToolboxGallery .MagicToolboxSelectorsContainer a[data-video-id]:before {
+    content: '';
+    width: 12px;
+    height: 16px;
+    border-top: 8px solid transparent;
+    border-left: 12px solid rgba(255,255,255,0.7);
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translateY(-50%) translateX(-50%);
+    -webkit-transform:translateY(-50%) translateX(-50%);
+    margin-left: 1px;
+    box-sizing: border-box !important;
+    z-index: 101;
+}
+
+.MagicToolboxGallery .MagicToolboxSelectorsContainer a[data-video-id]:hover:after {
+    border: 2px solid rgba(255,255,255,1);
+}
+
+.MagicToolboxGallery .MagicToolboxSelectorsContainer a[data-video-id]:hover:before {
+    border-left-color: rgba(255,255,255,1);
+}
+
+.MagicToolboxGallery .MagicToolboxSelectorsContainer .mz-thumb-selected img {
+    -webkit-filter: none !important;
+    filter: none !important;
+}
+
+.MagicToolboxGallery .MagicToolboxSelectorsContainer .mt-gallery-active img {
+    -webkit-filter: brightness(60%) !important;
+    filter: brightness(60%) !important;
+}

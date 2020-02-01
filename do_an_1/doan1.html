@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>website myclass</title>
+	<meta charset="utl-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<style>	
+	.jumbotron {
+	background-color:#1ECBF4;
+	color:#ffffffff;
+	padding: 100px 25px;
+	
+	}
+	.container-fluid{
+	padding:60px 50px;
+	}
+	.bg-grey{
+	background-color:#f6f6f6;
+	}
+	.logo{
+	color:#1ECBF4;
+	font-size: 200px;
+	}
+	@media Screen and (max-width:1200px){
+	.col-lg-4{
+	text-align:center;
+	margin:25px 0;
+	}
+	}
+	.logo-small{
+	color:#1ECBF4;
+	font-size: 50px;
+	}
+	.thumbnail{
+	padding:0px;
+	border: none;	 	
+	}
+	.thumbnail img{
+	width:100%;
+	padding-bottom:20px;
+	}
+	.carousel-control.right,.carousel-control.left {
+	background-image:none;
+	color:#1ECBF4;
+	}
+	.carousel-indicators li {
+	border-color:#1ECBF4;
+	}
+	.carousel-indicators li.active {
+      background-color: #1ECBF4;
+  }
+	
+	.item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+	.panel{
+	border: 1px solid #1ECBF4;
+	border-radius:0 !important;
+	transition: box-shadow 0.5s;
+	}
+	.panel:hover {
+	 box-shadow: 5px 0px 40px rgba(0,0,0,0.2);
+	}
+	.panel-footer .btn:hover{
+	background-color:#1ECBF4 !important;
+	color:#ffffff !important;
+	padding: 25px;
+	}
+	.panel-heading {
+	color:#fff !important;
+	background-color:#1ECBF4 !important;
+	padding:25px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	}
+	.panel-body{
+	font-size:30px;
+	}
+	.panel-footer{
+	background-color: white !important;
+	}
+	.panel-footer h3{
+	font-size:30px;
+	}
+	.panel-footer h4{
+	font-size:14px;
+	color:#ooo;
+	}
+	.panel-footer .btn{
+	margin: 15px 0;
+	background-color:#1ECBF4;
+	color:#fff;
+	}
+	.navbar {
+      margin-bottom: 0;
+      background-color: #1ECBF4;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Roboto, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #1ECBF4 !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #1ECBF4;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+	  animation-name:abc;
+	  -webkit-animation-name:abc;
+	  animation-duration:1s;
+	  -webkit-animation-duration:1s;
+	  visibility:visible;
+  }
+  @keyframes abc {
+	  0%{
+		  opacity:0;
+		  transform:translateY(70%);
+	  }
+	  100%{
+		  opacity:1;
+		  transform:translateY(0%);
+	  }
+  }
+  @-webkit-keyframes abc {
+	  0%{
+		  opacity:0;
+		  transform:translateY(70%);
+	  }
+	  100%{
+		  opacity:1;
+		  transform:translateY(0%);
+	  }
+  }
+  
+	</style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#myPage">LOGO</a>
+		</div>
+		
+		<div class="collapse navbar-collapse"id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#about">GIỚI THIỆU</a></li>
+				<li><a href="#services">DỊCH VỤ</a></li>
+				<li><a href="#portifolio">DỰ ÁN</a></li>
+				<li><a href="#pricing">GIÁ</a></li>
+				<li><a href="#contact">LIÊN HỆ</a></li>				
+			</ul>
+		
+		</div>
+	</div>
+</nav>
+<div class="jumbotron text-center">
+	<h1>MYCLASS.VN</h1>
+	<P>Đội ngũ trẻ - giàu tâm huyết</P>
+	<form class="form-inline">
+		<input type ="email" class="form-control" size="50" placeholder="Nhập địa chỉ email" required></input>
+		<button type="button" class="btn btn-danger">Đăng ký theo dõi</button>		
+	</form>
+</div>
+
+<div id ="about" class="container-fluid"><!--giới thiệu-->
+	<div class="row">
+		<div class="col-lg-8">
+			<h2>Giới thiệu MYCLASS</h2>
+				
+			<h4>CSS</h4><br>
+			<p>The most common way to add CSS, is to keep the styles in separate CSS files. However, here we will use inline and internal styling, because this is easier to demonstrate, and easier for you to try it yourself.</p><br>
+			<button class="btn btn-default btn-lg">Liên Hệ với Chúng Tôi</button>
+		</div>
+		<div class="col-lg-4">
+			<span class="glyphicon glyphicon-signal logo"></span>
+		</div>
+	</div>
+</div>
+<div class="container-fluid bg-grey">
+<div class="row">
+	<div class="col-lg-4">
+			<span class="glyphicon glyphicon-globe logo slideanim"></span>
+	</div>
+	<div class="col-lg-8">
+		<h2>Tin tôi đi, cuộc sống là những món quà</h2><br>
+		<h4> Cuộc sống là món quà tuyệt vời nhất mỗi chúng ta có được</h4>
+		<p><strong>Ở cái tuổi hai mươi mấy </strong>con người ta cô đơn lắm, cô đơn đến nỗi trở thành một con người khác, lạnh lùng, ít nói, ít cười, dường như chẳng còn là mình nữa. Bởi vì ngoài hai mươi, con người ta trưởng thành, phải gánh vác những trọng trách, phải mưu sinh để tồn tại.</p>
+		<p><strong>Ở cái tuổi hai mươi mấy</strong> con người ta cần rất nhiều va chạm.</p>
+	</div>
+</div>
+</div>
+<div id ="services" class="container-fluid text-center"><!-- dịch vụ-->
+	<h2>DỊCH VỤ</h2>
+	<H4>Các dịch vụ của chúng tôi</H4><br>	
+		<div class="row slideanim">
+			<div class="col-lg-4">
+				<span class="glyphicon glyphicon-off logo-small"></span>
+			   <h4>Elearing-Framework </h4>
+			   <p>Phần mềm khung dạy trực tuyến .</p>
+			</div>
+			<div class="col-lg-4">
+				<span class="glyphicon glyphicon-heart logo-small"></span>
+				<h4>Phát triển website </h4>
+				<p>Chúng tôi phát triển website theo các đơn đặt hàng .</p>
+			</div>			
+			<div class="col-lg-4">
+				<span class="glyphicon glyphicon-lock logo-small"></span>
+				<h4>Hệ thống CRM </h4>
+				<p>Hệ thống quản trị khách hàng CRM</p>
+			</div>
+		</div>
+		<br>
+		<div class="row slideanim">
+			<div class="col-lg-4">
+				<span class="glyphicon glyphicon-leaf logo-small"></span>
+				<h4>Hệ thống Phòng khám điện tử </h4>
+				<p>Xây dựng hệ thống phòng khám điện tử .</p>
+			</div>
+			<div class="col-lg-4">
+				<span class="glyphicon glyphicon-certificate logo-small"></span>
+				<h4>Hệ thống quản lý nha khoa </h4>
+				<p>Hệ thống quản lý nha khoa  .</p>
+			</div>
+			<div class="col-lg-4">
+				<span class="glyphicon glyphicon-wrench logo-small"></span>
+				<h4 style="color:#303030;">Quản lý kho </h4>
+				<p>Hệ thống quản lý kho .</p>
+			</div>
+		</div>
+	
+</div>
+<div id ="portifolio" class="container-fluid text-center bg-grey"> <!--dự án tiêu biểu-->
+<h2>CÁC DỰ ÁN TIÊU BIỂU</h2>
+<H4>Một trong những dự án website myclass.vn đã triển khai</H4>
+<div class="row text-center slideanim">
+	<div class="col-lg-4">
+		<div class="thumbnail">
+			<img src="photo1.png" alt="hình dự án 1">
+			<p><strong>DỰ ÁN 1</strong></p>
+			<P>DỰ ÁN WEB 1</P>
+		</div>
+	</div>
+	<div class="col-lg-4">
+		<div class="thumbnail">
+			<img src="photo2.png" alt="hình dự án 2">
+			<p><strong>DỰ ÁN 3</strong></p>
+			<P>DỰ ÁN WEB 3</P>
+		</div>
+	</div>
+	<div class="col-lg-4">
+		<div class="thumbnail">
+			<img src="photo3.png" alt="hình dự án 3">
+			<p><strong>DỰ ÁN 2</strong></p>
+			<P>DỰ ÁN WEB 2</P>
+		</div>
+	</div>
+</div>
+<!-- ý kiến khách hàng -->
+<h2>KHÁCH HÀNG NÓI VỀ CHÚNG TÔI</h2>
+	<div id ="myCarousel" class="carousel slide text-center" data-ride="carousel">
+	<!--phan cac chi so của slider-->
+	<ol class="carousel-indicators">
+		<li data-taget="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-taget="#myCarousel" data-slide-to="1"></li>
+		<li data-taget="#myCarousel" data-slide-to="2"></li>
+	</ol>
+	<!--nội dung các slide-->
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+		<h4>"Cảm ơn myclass.vn đã mang lại những khoá học tuyệt vời."<br><span style="font-style:normal;">Nguyễn Duy , Đại học QG Hà Nội , Bình luận </span></h4>	
+		</div>
+		<div class="item">
+		<h4>"Trang web myclass.vn làm cho chúng tôi thật sự ấn tượng... !!"<br>"Trang web myclass.vn làm cho chúng tôi thật sự ấn tượng... !!<br>""Trang web myclass.vn làm cho chúng tôi thật sự ấn tượng... !!"</h4>
+		</div>
+		<div class="item">
+		<h4>"Hệ thống quản lý Kho của myclass.vn đã xây dựng giúp tôi tiết kiệm nhiều thời gian và chi phí "</h4>
+		</div>
+	</div>
+	<!-- control dieu khien left&right-->
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">Preveious</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	</a>
+	</div>
+<div id="pricing" class="container-fluid">
+	<div class="text-center">
+		<h2>BẢNG GIÁ</h2>
+		<h4>CHỌN GIÁ MÀ BẠN MUỐN XÂY DỰNG WEB</h4>
+	</div>
+	<div class="row slideanim">
+		<div class="col-lg-4 col-sm-12">
+			<div class="panel panel-default text-center">
+				<div class="panel-heading">
+					<h1>CƠ BẢN</h1>
+				</div>					
+				<div class="panel-body">
+					<p><strong>20 </strong>abc</p>
+					<p><strong>15 </strong>ad</p>
+					<p><strong>5 </strong></p>
+					<p><strong>5 </strong></p>
+					<p><strong>5 </strong></p>				
+				</div>
+				<div class="panel-footer">
+					<h3><strong>$abc</strong></h3>
+					<h4>mỗi tháng</h4>
+					<button class="btn btn-lg">Đăng ký</button>	
+				</div>	
+			</div>	
+		</div>
+		<div class="col-lg-4 col-sm-12">
+			<div class="panel panel-default text-center">
+				<div class="panel-heading">
+					<h1>NÂNG CAO</h1>
+				</div>						
+				<div class="panel-body">
+					<p><strong>20 </strong>abc</p>
+					<p><strong>15 </strong>ad</p>
+					<p><strong>5 </strong></p>
+					<p><strong>5 </strong></p>
+					<p><strong>5 </strong></p>				
+				</div>
+				<div class="panel-footer">
+					<h3><strong>$abc</strong></h3>
+					<h4>mỗi tháng</h4>
+					<button class="btn btn-lg">Đăng ký</button>	
+				</div>	
+			</div>	
+		</div>
+		<div class="col-lg-4 col-sm-12">
+			<div class="panel panel-default text-center">
+				<div class="panel-heading">
+					<h1>CAO CẤP</h1>
+				</div>						
+				<div class="panel-body">
+					<p><strong>20 </strong>abc</p>
+					<p><strong>15 </strong>ad</p>
+					<p><strong>5 </strong></p>
+					<p><strong>5 </strong></p>
+					<p><strong>5 </strong></p>				
+				</div>
+				<div class="panel-footer">
+					<h3><strong>$abc</strong></h3>
+					<h4>mỗi tháng</h4>
+					<button class="btn btn-lg">Đăng ký</button>	
+				</div>	
+			</div>	
+		</div>
+	</div>
+</div>
+</div>
+
+<div id="contact" class="container-fluid bg-grey"> <!--liên hệ-->
+	<h2 class="text-center">LIÊN HỆ</h2>
+	<div class="row">
+		<div class="col-lg-5">
+			<h5>Hãy liên hệ với chúng tôi, chúng tôi sẽ trả lời trong vòng 8 giờ</h5>
+			<p><span class="glyphicon glyphicon-map-marker"></span>Hồ Chí Minh, Vietnam</p>
+			<p><span class="glyphicon glyphicon-phone"></span>0123456</p>
+			<p><span class="glyphicon glyphicon-envelope"></span>iop@gmail.com</p>
+		</div>
+		<div class="col-lg-7">
+			<div class = "row">
+				<div class="col-lg-6">
+					<input class="form-control" id="name" placeholder="tên"></input>								
+				</div>
+				<div class="col-lg-6">
+					<input class="form-control" id="email" placeholder="Email"></input>	
+				</div>
+			</div>
+			<br>
+			<textarea class="form-control" id="comments" name="coments" placeholder="coments"></textarea>
+			<div class = "row">
+			<div class="col-lg-10"></div>
+			<div class="col-lg-2">
+			<br>
+			<button type="button" class="btn btn-default">Gửi yêu cầu</button>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="map" class="container-fluid">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1003454.1752663706!2d106.13468146605655!3d10.75428931347321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2zSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1576508583716!5m2!1svi!2s" width="100%" height="400px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</div>
+<footer class="container-fluid text-center">
+	<a href="#myPage" title="To Top">
+	<span class="glyphicon glyphicon-chevron-up"></span>
+	</a>
+	<p>Khóa học với Bảo đại ca <a href="http://google.com.vn"> Google</a></p>
+</footer>
+<script>// chạy cmt của khách hàng
+$(document).ready(funtion(){
+	$(window).scroll(funtion(){
+		$(".slideanim").each(funtion(){
+		var pop=$(this).offset().top;
+		var winTop=$(window).scrollTop();
+		if(pos<wintop+600){
+		$(this).addclass("abc");
+		}
+	});
+	});
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,300 @@
+6.8.10 (2019-12-14)
+    - Minor fixes
+6.8.9 (2019-12-12)
+    - Minor fixes
+6.8.8 (2019-12-12)
+    - Minor fixes
+6.8.7 (2019-12-05)
+    - Minor fixes
+6.8.6 (2019-12-04)
+    - Minor fix
+6.8.5 (2019-12-04)
+    - Improved support for WooCommerce product shortcodes
+6.8.4 (2019-11-08)
+    - Minor fix
+6.8.3 (2019-11-05)
+    - Minor fix
+6.8.2 (2019-10-29)
+    - Minor fix
+6.8.1 (2019-10-28)
+    - Bug fixes
+6.8.0 (2019-07-03)
+    - Added Gutenberg support
+    - Bug fixes
+6.7.58 (2019-04-16)
+    - Minor fixes
+6.7.57 (2019-04-09)
+    - Minor fixes
+6.7.56 (2019-04-04)
+    - Minor fixes
+6.7.55 (2019-03-25)
+    - Minor fixes
+6.7.54 (2019-03-15)
+    - Minor fixes
+6.7.52 (2018-11-21)
+    - Minor fixes
+6.7.51 (2018-11-09)
+    - Minor fixes
+6.7.50 (2018-11-07)
+    - Minor fixes
+6.7.49 (2018-11-05)
+    - Added retina support for Magic Scroll and Magic Slideshow
+6.7.48 (2018-10-16)
+    - Minor fixes
+6.7.47 (2018-10-11)
+    - Added native video support for MagicThumb
+6.7.46 (2018-09-05)
+    - Enhanced variations support
+6.7.45 (2018-09-04)
+    - Minor fixes
+6.7.44 (2018-08-21)
+    - Bug fixes
+6.7.43 (2018-08-17)
+    - Minor fixes
+6.7.42 (2018-08-01)
+    - Bug fixes
+6.7.41 (2018-07-27)
+    - Bug fixes
+6.7.40 (2018-07-23)
+    - Minor fixes
+6.7.39 (2018-07-12)
+    - Minor fixes
+6.7.38 (2018-07-09)
+    - Added Default Spin View option to WooCommerce module
+    - Bug fixes
+6.7.37 (2018-05-13)
+    - Minor fixes
+6.7.36 (2018-05-11)
+    - Added support for Variations Master WooCommerce module
+6.7.35 (2018-04-28)
+    - Minor fixes
+6.7.34 (2018-04-18)
+    - Minor fixes
+6.7.33 (2018-04-11)
+    - Fixed rare issue with adding 360 images
+6.7.32 (2018-04-10)
+    - Minor fixes
+6.7.31 (2018-04-04)
+    - Fixed video thumbnails for shortcodes
+6.7.30 (2018-04-04)
+    - Fixed magicslideshow options
+6.7.29 (2018-04-02)
+    - Minor fixes
+6.7.28 (2018-03-30)
+    - Added simple slideshow constructor
+    - Added scrollable thumbnails effect for MagicThumb, MagicZoom and MagicZoomPlus galleries
+6.7.27 (2018-03-22)
+    - Minor fixes
+6.7.26 (2018-02-12)
+    - Minor fixes
+6.7.25 (2018-01-31)
+    - Bug fixes
+6.7.24 (2018-01-18)
+    - Bug fixes
+6.7.23 (2018-01-17)
+    - Small fix for multilingual pages
+6.7.22 (2018-01-16)
+    - Bug fixes
+6.7.21 (2018-01-16)
+    - Added support for multilingual pages with WPML
+6.7.20 (2017-12-11)
+    - Fixed Magic Zoom with video combination issue.
+6.7.19 (2017-12-04)
+    - Fixed issue with magic360 gallery.js on incompatible page types.
+6.7.18 (2017-11-20)
+    - Fixed issue with plugins on windows servers.
+6.7.17 (2017-11-16)
+    - Fixed issue with empty Magic 360 images during mass edit or quick edit for Woocommerce
+6.7.15 (2017-09-25)
+    - Minor fixes
+6.7.13 (2017-09-22)
+    - Added support for WooCommerce extra product options extension images
+6.7.12 (2017-09-22)
+    - Bug fixes
+6.7.11 (2017-09-19)
+    - Added images sort option (drag-and-drop) in shortcodes
+6.7.10 (2017-09-13)
+    - Minor JS fixes
+6.7.9 (2017-09-12)
+    - Minor fixes
+6.7.7 (2017-09-08)
+    - Fixed WooCommerce variations critical issue
+6.7.6 (2017-09-08)
+    - WooCommerce minor fixes
+6.7.5 (2017-09-01)
+    - Fixed MagicScroll on additional variations selectors 
+6.7.4 (2017-09-01)
+    - Fixed Magic Thumb video size
+    - Minor fixes
+6.7.3 (2017-08-28)
+    - Added video support
+    - Added Magic Scroll image link support
+6.7.2 (2017-08-22)
+    - Fixed issue with variations without images
+6.7.1 (2017-08-17)
+    - Minor fixes
+6.7.0 (2017-08-04)
+    - Added wordpress images support
+    - Improved support of alt and title
+    - Bug fixes
+6.6.19 (2017-07-19)
+    - Visual Composer support
+6.6.18 (2017-07-18)
+    - Minor fixes
+6.6.17 (2017-06-26)
+    - Fixed left/right layout styles
+6.6.16 (2017-06-13)
+    - Added widgets functionality
+6.6.15 (2017-06-13)
+    - Fixed link option for Magic Thumb
+6.6.13 (2017-05-31)
+    - Fixed error "Invalid argument supplied for foreach()"
+6.6.12 (2017-05-31)
+    - Added support for updated WooCommerce Additional Variation Images plugin
+6.6.11 (2017-05-30)
+    - Minor fixes
+6.6.10 (2017-05-29)
+    - Fixed minor issues in spin shortcodes
+6.6.9 (2017-05-19)
+    - Fixed minor issues in WooCommerce Magic360 module
+6.6.8 (2017-05-19)
+    - Fixed PHP compatibility issue in WooCommerce module
+6.6.7 (2017-05-18)
+    - Fixed Magic360 issue on products without spin
+6.6.6 (2017-05-18)
+    - Fixed variations images blinking issue
+6.6.5 (2017-05-17)
+    - Bug fixes
+6.6.4 (2017-05-16)
+    - Improved WooCommerce module stability
+6.6.3 (2017-05-15)
+    - Fixed "function MagicRefresh is undefined" js error
+6.6.2 (2017-05-15)
+    - Fixed Magic360 module for WooCommerce
+6.6.1 (2017-05-15)
+    - Fixed issue with variation images within product images gallery option
+6.6.0 (2017-05-09)
+    - Improved Woocommerce gallery parsing script
+    - Enhanced variations support
+6.5.14 (2017-05-05)
+    - Shortcodes image loading fix
+    - Shortcodes options fix
+    - Minor fixes
+6.5.13 (2017-04-26)
+    - Better WooCommerce variations support
+    - Minor fixes
+6.5.9 (2017-04-21)
+    - Fixed Magic360 module for WooCommerce
+    - Minor fixes
+6.5.8 (2017-04-21)
+    - Added support for WooCommerce 3.0.4
+6.5.7 (2017-04-12)
+    - Added support for WooCommerce 3.0.1
+6.5.4 (2017-04-05)
+    - Added support for WooCommerce 3.0
+6.5.0 (2017-03-22)
+    - Added shortcode constructors for Magic Zoom, Magic Zoom Plus, Magic Slideshow and Magic Scroll
+    - Added support for new Magic Thumb 3.0
+    - Added support for new Magic Slideshow 3.0
+6.2.0 (2016-11-28)
+    - Added functionality for embedding videos to product image gallery (Woocommerce)
+6.1.0 (2016-05-10)
+    - Added auto update functionality
+    - Added backup/restore plugin settings functionality
+    - Added license management functionality
+    - Added shortcodes support for Magic 360
+    - Improved code which references plugin .js/.css files
+6.0.42 (2016-02-25)
+    - Added support for retina (Woocommerce, Jigoshop, WPEC)
+    - Default thumbnail size increased (Woocommerce, Jigoshop, WPEC)
+    - Default selectors size increased for horizantal selectors layout (Woocommerce, Jigoshop, WPEC)
+6.0.38 (2016-02-09)
+    - Magic 360 images upload separately from standard product images in 'Magic 360 images' block (Woocommerce)
+    - Added support for Magic 360 + Magic Zoom (Plus) combination on the product details page (Woocommerce)
+6.0.0 (2015-09-03)
+    - Added settings profiles
+    - Added support for Magic Scroll v2
+    - Added support for Magic Slideshow v3
+    - Added support for Magic Zoom Plus v5
+    - Bug fixes
+5.12.35 (2015-08-27)
+    - Added support for WooCommerce Additional Variation Images plugin
+5.12.28 (2015-03-19)
+    - Added functionality for showing product variants within product images gallery
+5.12.24 (2015-02-10)
+    - Added support for WooCommerce 2.3
+5.12.22 (2015-01-16)
+    - Fixed issue with Umlaut symbols in file names
+5.12.10 (2014-09-26)
+    - Improved module load speed
+5.12 (2014-06-04)
+    - Added TheCartPress module support.
+5.11 (2013-12-12)
+    - Added support for Magic Slideshow v2.
+5.10.2 (2012-12-10)
+    - Added support for WordPress WooCommerce module
+5.10 (2012-11-23)
+    - A lot of improvements in all Wordpress modules
+5.8 (2012-03-01)
+    - Jigoshop plugin created
+5.7 (2011-06-07)
+	- Styles & scripts enqueuement removed
+	- Fixed tool options bug
+5.6 (2011-06-01)
+    - Added WP-Ecommerce 3.8.4 support
+5.5 (2011-05-25)
+	- Styles & scripts enqueuement improved
+5.4 (2011-05-18)
+    - Added WP-Ecommerce 3.8.3 support
+	- Added 'create-main-image-selecor' parameter for WPEC module
+	- Added some minor improvements
+5.3 (2011-04-28)
+    - Added WP-Ecommerce 3.8.2 support
+5.2 (2011-04-18)
+    - Added WP-Ecommerce 3.8.1 support
+5.1 (2011-03-28)
+    - Fixed bug with non-resized first selector on product page
+5.0 (2011-02-10)
+    - Improved admin settings page
+    - Minor bugs fixed
+4.9 (2011-01-17)
+    - Added WP-Ecommerce 3.8beta support
+    - Fixed "on/off effects on category page" bug
+4.8 (2011-01-17)
+    - Added Magic Scroll support
+4.7 (2010-10-22)
+    - Fix issue with native WordPress module uploader.
+    - Changes in module's folder structure and installation instruction.
+4.6 (2010-06-08)
+    - Changes in caption-source parameter to allow multiple sources.
+4.5 (2010-06-07)
+    - Ford WordPress E-commerce module not working with some versions of WPEC.
+4.4 (2010-05-17)
+    - Ability to replace standard image gallery with Magic Slideshow.
+4.3 (2010-04-28)
+    - Fixed CSS bug with selectors in WordPress E-commerce module.
+4.2 (2010-04-27)
+    - Improved effects on category page in WordPress E-commerce module.
+    - Added support for multiple images in WordPress E-commerce module.
+4.1 (2010-03-01)
+    - Fixed conflict with some parameters of third party modules.
+    - Added support of native WP plugin activate function.
+    - Added deactivate function with database cleaning.
+4.0 (2010-02-22)
+    - Added support for Magic Slideshow.
+    - Added support for WordPress E-commerce module.
+    - Code review.
+3.7 (2010-02-11)
+    - Fixed issue with activating two or more modules.
+3.6 (2010-02-08)
+    - Fixed issue with short open PHP tags.
+3.5 (2009-12-11)
+    - Code optimization.
+    - Added MagicToolboxContainer class to wrapper div.
+3.4 (2009-05-07)
+    - Fixed links to JavaScript and CSS files.
+    - Changed plugin descriptions.
+3.3 (2009-04-09)
+    - Fixed links to sources files (js/css/img).
+3.2 (2009-03-17)
+    - Added CHANGELOG.
